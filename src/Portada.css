@@ -1,0 +1,157 @@
+
+.Portada{
+	display: flex;
+	background-color: #7C4242;
+	width: 100%;
+	height: 100vh;
+	position: relative;
+}
+.Portada_Container{
+	background-color: #166999;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+
+	
+	
+}
+.Scroll{
+	position: fixed;
+	transform: translate(400px , 260px);
+	z-index: 20;
+	width: 50px;
+	height: 50px;
+	color: #B1DFD9;
+}
+.Scroll_Nule{
+	position: fixed;
+	transform: translate(400px , 260px);
+	z-index: 20;
+	width: 50px;
+	height: 50px;
+	
+}
+.NuleScroll{
+display: none;
+}
+
+.Negro img{
+	width: 100%;
+	height: 100%;
+}
+.Negro{
+	width: 100%;
+	height: 100vh;
+	background-color: rgba(17, 17, 17, 0.4);
+}
+.Fondo{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	background-color: rgba(17, 17, 17, 0.4);
+	padding: 10px;
+	border-radius: 10px;
+
+}
+.Portada_Container_Fondo{
+	
+		position: absolute;
+	z-index: 0;
+	width: 480px;
+}
+.Fondo_Nombre_Foto{
+	display: flex;
+	justify-content: center;
+}
+.Fondo_Nombre_Foto img {
+	margin-bottom: -30px;
+	width: 70%;
+}
+.Fondo_Nombre h1{
+	text-align: center;
+	font-weight: 800;
+	font-size: 100px;
+	font-family: 'Raleway', sans-serif;
+	color: #B1DFD9;
+	font-size: 50px;
+}
+.Fondo_Nombre h2{
+	margin-top: -20px;
+	color: #D2D1D2;
+	text-align: center;
+	font-weight: 300;
+	font-size: 25px;
+	font-family: 'Raleway', sans-serif;
+}
+.Fondo_Boton{
+	display: flex;
+	justify-content: center;
+}
+.Des{
+	transform: translate(0,2px);
+	width: 28px;
+
+}
+.Boton_CV{
+	border: none;
+	background-color: #B1DFD9;
+	padding: 12px;
+	border-radius: 20px;
+	font-weight: 700;
+	transition-delay:0.2s;
+	font-size: 18px;
+	font-family: 'Raleway', sans-serif;
+
+}
+.Boton_CV:hover{
+	color: #D2D1D2;
+
+	transition-duration: 0.2s;
+}
+.Fondo_Links{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.Links{
+	color: #000000;
+}
+.Link{
+	width: 50px;
+	height: 30px;
+}
+.Link:hover{
+	color: #B1DFD9;
+}
+
+.card {
+ 	
+  width: 200px;
+  height: 200px;
+  background: grey;
+  border-radius: 5px;
+  box-shadow: 0px 10px 30px -5px rgba(0, 0, 0, 0.3);
+  transition: box-shadow 0.5s, opacity 0.5s;
+  will-change: transform;
+  border: 10px solid white;
+  cursor: grab;
+  overflow: hidden;
+  
+}
+
+.card:hover {
+  box-shadow: 0px 30px 100px -10px rgba(0, 0, 0, 0.4);
+}
+
+
+
+
+
+
+
+
+
+
+
+

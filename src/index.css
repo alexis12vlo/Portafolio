@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.header{
+  display: flex;
+  background-color: #613636;
+  width: 100%;
+}
+.Nav{
+  width: 20%;
+  background-color: #B1DFD9;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 80%;
+  
+}
+.menu{
+  display: flex;
+  flex-wrap: wrap;
+  
+
+}
+.Links_Nav{
+  font-weight: 800;
+  font-size: 20px;
+  font-family: 'Raleway', sans-serif;
+  background-color:#B1DFD9;
+  text-align: center;
+  width: 100%;
+  padding-bottom: 40px;
+  padding-top: 40px;
+  text-decoration: none;
+  color:#121212;
+
+}
+.Links_Nav:hover{
+  background-color: #252525;
+  transition-duration: 0.8s;
+  color: #E7E3E3;
+}
+
+
+.NavIcon{
+
+
+
+
+}
+
+
+
+.NavIcon{
+
+  width: 50px;
+  height: 30px;
+  transform: translateY(7px);
+}
+
+
+
+
+.container_nav{
+  background-color: #2C621C;
+  width: 80%;
+
+}
