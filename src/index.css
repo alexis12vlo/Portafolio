@@ -14,15 +14,21 @@ code {
 }
 .header{
   display: flex;
-  background-color: #613636;
+  background-color:#0E0C0F;
   width: 100%;
+  align-items: center;
 }
 .Nav{
   width: 20%;
+box-shadow:  0 5px 20px #585252;
   background-color: #B1DFD9;
+
   height: 100vh;
   display: flex;
   align-items: center;
+
+  border-radius: 20px;
+
 }
 .menu {
   display: flex;
@@ -35,7 +41,7 @@ code {
 .menu{
   display: flex;
   flex-wrap: wrap;
-  
+  border-radius: 50px;
 
 }
 .Links_Nav{
@@ -49,7 +55,7 @@ code {
   padding-top: 40px;
   text-decoration: none;
   color:#121212;
-
+  border-radius: 30px;
 }
 .Links_Nav:hover{
   background-color: #252525;

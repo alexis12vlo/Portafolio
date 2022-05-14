@@ -14,16 +14,6 @@ function App(){
 
 				<Routes>
 					<Route exact path='/'  component={About}/>
-						
-
-
-				
-					
-				
-
-
-
-
 
 				</Routes>	
 			</div>

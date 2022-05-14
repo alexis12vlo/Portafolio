@@ -7,6 +7,8 @@ import final from './Final.gif'
 import proyecto1 from './proyecto1.gif'
 import proyecto2 from './proyecto2.gif'
 import proyecto3 from './proyecto3.gif'
+import proyecto5 from './proyecto5.gif'
+
 import {BsGithub} from "react-icons/bs"
 
 function Portafolio() {
@@ -32,27 +34,27 @@ function Portafolio() {
         <div className="Portafolio_Container_Text">
             <Carousel >
                 <div>
-                    <img src={proyecto1} />
+                    <img src={proyecto5} />
 
-                    <a href=""><p className="legend"><BsGithub className="Git_boton"/>GitHub</p></a>
+                    <a target="_blank" href="https://github.com/alexis12vlo/PokedexApi"><p className="legend"><BsGithub className="Git_boton"/>GitHub</p></a>
                          
 
                 </div>
                 <div>
                     <img src={proyecto2} />
-                   <a href=""><p className="legend"><BsGithub className="Git_boton"/>GitHub</p></a>
+                   <a target="_blank" href="https://github.com/alexis12vlo/CAR-MOTOR"><p className="legend"><BsGithub className="Git_boton"/>GitHub</p></a>
                 </div>
                 <div>
                     <img src={proyecto3}/>
-                    <a href=""><p className="legend"><BsGithub className="Git_boton"/>GitHub</p></a>
+                    <a target="_blank"  href="https://github.com/alexis12vlo/InCorpo-Page"><p className="legend"><BsGithub className="Git_boton"/>GitHub</p></a>
+                </div>
+                <div>
+                    <img src={proyecto1} />
+                    <a target="_blank"  href="https://github.com/alexis12vlo/Cafe-Cafe"><p className="legend"><BsGithub className="Git_boton"/>GitHub</p></a>
                 </div>
                 <div>
                     <img src={final} />
-                    <a href=""><p className="legend"><BsGithub className="Git_boton"/>GitHub</p></a>
-                </div>
-                <div>
-                    <img src={final} />
-                    <p className="legend"><BsGithub className="Git_boton"/>GitHub</p>
+                    <a target="_blank" href="https://github.com/alexis12vlo/Final"><p className="legend"><BsGithub className="Git_boton"/>GitHub</p></a>
                 </div>
          
                   
