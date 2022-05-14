@@ -8,7 +8,7 @@ import { useSpring, animated ,to } from "react-spring";
 import { useGesture } from 'react-use-gesture';
 import React , { useState ,useRef, useEffect } from 'react';
 import styles from './Portada';
-import pdf from './cv.pdf'
+import pdf1 from './cv2.pdf'
 import fondo from './fondo2.jpg'
 import {IoIosArrowDropdown} from 'react-icons/io'
 
@@ -130,7 +130,7 @@ const handleScroll = () => setScroll("NuleScroll")
           <div className="Fondo_Boton">
             <div className="Fondo_Boton_CV">
 
-                <a href={pdf} target="_blank" rel="noopener noreferrer"><button className="Boton_CV"><FaCloudDownloadAlt className="Des"/> Download CV</button></a>
+                <a href={pdf1} target="_blank" rel="noopener noreferrer"><button className="Boton_CV"><FaCloudDownloadAlt className="Des"/> Download CV</button></a>
                
             </div>
             <div className="Fondo_Links">
